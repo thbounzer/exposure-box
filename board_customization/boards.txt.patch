@@ -1,0 +1,15 @@
+##############################################################
+
+atmega8noxtal.name = demo-board 
+atmega8noxtal.upload.using=usbtinyisp
+atmega8noxtal.upload.maximum_size=7168
+atmega8noxtal.upload.speed=38400
+
+atmega8noxtal.bootloader.low_fuses=0xe4
+atmega8noxtal.bootloader.high_fuses=0xc4
+atmega8noxtal.bootloader.unlock_bits=0x3F
+atmega8noxtal.bootloader.lock_bits=0x0F
+
+atmega8noxtal.build.mcu=atmega8
+atmega8noxtal.build.f_cpu=8000000L
+atmega8noxtal.build.core=arduino
