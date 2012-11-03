@@ -1,0 +1,195 @@
+# EESchema Netlist Version 1.1 created  Tue 25 Sep 2012 12:16:50 AM CEST
+(
+ ( /4FA849B2 LED-3MM 5V1 LED
+  ( 1 N-000031 )
+  ( 2 GND )
+ )
+ ( /4FA70406 RV2 Bckl1 10_K
+  ( 1 GND )
+  ( 2 N-000019 )
+  ( 3 +5V )
+ )
+ ( /4FA7033F SM1206 Bckl2 220_Ohm
+  ( 1 N-000035 )
+  ( 2 +5V )
+ )
+ ( /4FA843DE C1 C1 0.33_uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /4FA843E7 C1 C2 0.1_uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4FA6DB17 DIP-28__300_ELL IC1 ATMEGA8-P
+  ( 1 N-000024 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 Minus_cmd_input )
+  ( 5 Plus_Cmd_input )
+  ( 6 Set_Cmd_input )
+  ( 7 +5V )
+  ( 8 GND )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 Transistor_output )
+  ( 12 ? )
+  ( 13 Disp_RS )
+  ( 14 Disp_EN )
+  ( 15 Disp_DB4 )
+  ( 16 Disp_DB5 )
+  ( 17 Disp_DB6 )
+  ( 18 Disp_DB7 )
+  ( 19 ? )
+  ( 20 +5V )
+  ( 21 ? )
+  ( 22 GND )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+ )
+ ( /4FA98989 TO220 LM1 7805
+  ( 1 +5V )
+  ( 2 +12V )
+  ( 3 GND )
+ )
+ ( /4FA98B17 SIL-2 P1 CONN_2
+  ( 1 +12V )
+  ( 2 N-000020 )
+ )
+ ( /4FA9A459 SIL-2 P2 CONN_2
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /4FA84EAA SM1206 R1 10_K
+  ( 1 +5V )
+  ( 2 N-000024 )
+ )
+ ( /4FA8497A SM1206 R2 150_Ohm
+  ( 1 +5V )
+  ( 2 N-000031 )
+ )
+ ( /4FA6FECD SM1206 R3 10_K
+  ( 1 Minus_cmd_input )
+  ( 2 GND )
+ )
+ ( /4FA6FED9 SM1206 R4 10_K
+  ( 1 Plus_Cmd_input )
+  ( 2 GND )
+ )
+ ( /4FA6FEE6 SM1206 R5 10_K
+  ( 1 Set_Cmd_input )
+  ( 2 GND )
+ )
+ ( /4FA8458E SM1206 R6 10_K
+  ( 1 Transistor_output )
+  ( 2 N-000030 )
+ )
+ ( /4FA6FEB9 SIL-16 S1 DISPLAY_BL
+  ( 1 GND )
+  ( 2 +5V )
+  ( 3 N-000019 )
+  ( 4 Disp_RS )
+  ( 5 GND )
+  ( 6 Disp_EN )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 Disp_DB4 )
+  ( 12 Disp_DB5 )
+  ( 13 Disp_DB6 )
+  ( 14 Disp_DB7 )
+  ( 15 N-000035 )
+  ( 16 GND )
+ )
+ ( /4FA6FDE1 SW_PUSH_SMALL SW1 SW_PUSH
+  ( 1 +5V )
+  ( 2 Minus_cmd_input )
+ )
+ ( /4FA6FDE8 SW_PUSH_SMALL SW2 SW_PUSH
+  ( 1 +5V )
+  ( 2 Plus_Cmd_input )
+ )
+ ( /4FA6FDEF SW_PUSH_SMALL SW3 SW_PUSH
+  ( 1 +5V )
+  ( 2 Set_Cmd_input )
+ )
+ ( /4FA6E1C3 TO220 T1 TIP112
+  ( 1 N-000030 )
+  ( 2 N-000020 )
+  ( 3 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component 5V1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component Bckl2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
