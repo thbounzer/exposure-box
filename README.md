@@ -9,8 +9,8 @@ Dir structure
 
 The source contains three directories:
 
-* [.kicad_files](http://) -- All the schematic and board files. (Use it with kicad)
-* [.src](http://) -- The timing software. (Build it with Arduino IDE)
-* [.board_customization](http://) --Files needed to add the custom board on Arduino IDE.
+* [kicad_files](https://github.com/ThBounzer/exposure-box/tree/master/kicad_files) -- All the schematic and board files. (Use it with kicad)
+* [src](http://) -- The timing software. (Build it with Arduino IDE)
+* [board_customization](http://) --Files needed to add the custom board on Arduino IDE.
 
 
